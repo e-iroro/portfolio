@@ -5,7 +5,6 @@ function App() {
     <div className=" w-5/6 mx-auto">
       <Navbar />
     </div>
-
   );
 }
 export default App;
