@@ -18,7 +18,7 @@ function Skills() {
     <section className=" bg-white py-6" id="skills">
       <div className=" w-5/6 mx-auto ">
         <h2 className=" font-ZCOOL-XiaoWei text-6xl text-center">Skills</h2>
-        <div className="flex  lex-row space-y-12 justify-between">
+        <div className="flex flex-wrap space-y-12 justify-between">
           {skills.map(createSkillCard)}
         </div>
       </div>

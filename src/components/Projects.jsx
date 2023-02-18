@@ -10,7 +10,7 @@ function ProjectCard() {
       <h2 className=" font-ZCOOL-XiaoWei text-6xl text-center w-5/6 mx-auto  ">Projects</h2>
         {projects.map((props) => (
           <div
-            className=" flex flex-col md:flex-row py-10  mx-auto pl-5 w-5/6  "
+            className=" flex flex-col md:flex-row py-10  mx-auto  w-5/6  "
             key={props.id}
           >
             <img src={props.image} alt={props.alt} width="500" />

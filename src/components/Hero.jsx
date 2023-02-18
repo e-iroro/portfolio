@@ -3,13 +3,13 @@ const bag2 =
 function Hero() {
   return (
     <section
-      className="   bg-cover bg-no-repeat bg-blend-darken h-[650px] md:h-[600px] "
+      className="   bg-cover bg-no-repeat bg-blend-darken h-[700px] md:h-[600px] "
       style={{ backgroundImage: `url(${bag2})` }}
     >
-      <div className=" md:mx-24 md:w-2/3 text-navy-blue absolute md:top-52 top-44">
+      <div className=" md:mx-24 md:w-2/3 text-navy-blue absolute md:top-52  mx-3 top-44">
         <h1 className=" text-3xl font-light ">Hello, my name is</h1>
-        <p className=" text-7xl font-semibold my-3 ">Eruoghene Iroro, </p>
-        <p className=" text-5xl my-3 "> A Frontend Developer</p>
+        <p className=" text-6xl font-semibold my-3 ">Eruoghene Iroro, </p>
+        <p className=" text-4xl my-3 "> A Frontend Developer</p>
         <p className=" text-xl ">
           Skilled in constructing efficient web applications and creating
           user-friendly digital products with accessibility and sustainability
